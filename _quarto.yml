@@ -1,0 +1,13 @@
+project:
+  type: website
+  output-dir: docs
+  render:
+    - /index.qmd
+
+website:
+  title: "Quarto + Shinylive"
+  navbar:
+    search: true
+format:
+  html:
+    toc: true
